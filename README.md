@@ -6,7 +6,7 @@ Ubuntu 22.04 LTS Docker container with systemd, useful for tests with `ansible` 
 
 ## Tags
 
-  - `24.04`, `jammy`, `latest` on main branch
+  - `24.04`, `noble`, `latest` on main branch
   - `22.04`, `jammy` on 22.04 branch
 
 
@@ -14,7 +14,7 @@ Ubuntu 22.04 LTS Docker container with systemd, useful for tests with `ansible` 
 
   * Verify if [Docker is installed](https://docs.docker.com/install/).
   * Run on main branch: `docker build -t docker-ubuntu-systemd:24.04 -t docker-ubuntu-systemd:latest .`
-  * Run on 22.04 branch: `docker build -t docker-ubuntu-systemd:22.04 -t docker-ubuntu-systemd:focal .`
+  * Run on 22.04 branch: `docker build -t docker-ubuntu-systemd:22.04 -t docker-ubuntu-systemd:jammy .`
   * Verify image: `docker images`
 
 ## How to Use

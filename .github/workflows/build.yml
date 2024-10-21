@@ -41,7 +41,7 @@ jobs:
 
       - name: Set Tags
         run: |
-          cat tags >> $GITHUB_ENV 
+          cat tags >> $GITHUB_ENV
 
       - name: Build and push image.
         uses: docker/build-push-action@v2
