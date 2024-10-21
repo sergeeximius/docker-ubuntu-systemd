@@ -1,1 +1,1 @@
-tags=eniocarboni/docker-ubuntu-systemd:latest,eniocarboni/docker-ubuntu-systemd:22.04,eniocarboni/docker-ubuntu-systemd:jammy
+tags=ssedov/docker-ubuntu-systemd:latest,ssedov/docker-ubuntu-systemd:24.04,ssedov/docker-ubuntu-systemd:noble

@@ -1,5 +1,5 @@
-FROM ubuntu:22.04
-LABEL maintainer="Enio Carboni"
+FROM ubuntu:24.04
+LABEL maintainer="Sergey Sedov"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
